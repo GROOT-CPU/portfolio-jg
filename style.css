@@ -77,4 +77,54 @@ li:hover {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
+
 }
+
+/* Add this to your style.css file */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  section {
+    margin-top: 20px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+}
+
